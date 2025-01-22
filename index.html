@@ -22,76 +22,90 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
-<!-- NAV BAR -->
+<body>  
+<!-- HEADER -->
+<header> 
   <!-- Metroclis logo -->
-  <nav class="navbar">
-    <a class="logo" href="#"><img scr="" class="logo-icon" alt="">Metrolics </a>
-    <!-- Menu Options -->
-    <div class="menu" id="menu-options">
-        <a class="nav-item-1" href="#">Home <img scr="" class="nav-icon" alt=""> </a>
-        <a class="nav-item-2" href="#">Portfolio <img scr="" class="nav-icon" alt=""> </a>
-        <a class="nav-item-3" href="#">Blog <img scr="" class="nav-icon" alt=""> </a>
-        <a class="nav-item-4" href="#">Quo Vadis? <img scr="" class="nav-icon" alt=""> </a>
-        <a class="nav-item-5" href="#">Let's Chat <img scr="" class="nav-icon" alt=""> </a>
-    </div>
-  </nav>
-<!-- NAV BAR -->
+  <h1>Metrolics</h1>
+  <img scr="" class="logo__icon" alt="">
+  <!-- NAV BAR -->
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li><a class="navbar__item" href="#">Home<img scr="" class="navbar__icon" alt=""></a></li>
+        <li><a class="navbar__item" href="#">Portfolio<img scr="" class="navbar__icon" alt=""></a></li>
+        <li><a class="navbar__item" href="#">Blog<img scr="" class="navbar__icon" alt=""></a></li>
+        <li><a class="navbar__item" href="#">Quo Vadis?<img scr="" class="navbar__icon" alt=""></a></li>
+        <li><a class="navbar__item" href="#">Let's Chat<img scr="" class="navbar__icon" alt=""></a></li>
+      </ul>
+    </nav>
+</header>
+<!-- HEADER -->
+
+<!-- MAIN -->
+<main>
 <!-- SECTION 01 - BANNER -->
-  <section class="section01"> <!-- here is better to be a section or a div? -->
+  <section class="section01">
       <div class="banner">
-        <img class="banner-image" src="" alt="">
-        <div class="banner-box">
-          <div class="banner-box-color-1"></div>
-          <div class="banner-box-text">Metro Style</div>
+        <img class="banner__image" src="" alt="">
+        <div class="banner__box">
+          <div class="banner__box--color1"></div>
+          <div class="banner__box--text">Metro Style</div>
         </div>
-        <div class="banner-box">
-          <div class="banner-box-color-2"></div>
-          <div class="banner-box-text">Quick on the feet</div>
+        <div class="banne__-box">
+          <div class="banner__box--color2"></div>
+          <div class="banner__box--text">Quick on the feet</div>
         </div>
-        <div class="banner-box">
-          <div class="banner-box-color-2"></div>
-          <div class="banner-box-text">Metro Styling reinvented</div>
+        <div class="banner__box">
+          <div class="banner__box--color3"></div>
+          <div class="banner__box--text">Metro Styling reinvented</div>
         </div>
       </div>
   </section>
 <!-- SECTION 01 - BANNER -->
+
 <!-- SECTION 02 - INTRO -->
   <section class="section02">
-    <h1>Hey folks! We are the <span id="metrolics-highlight">Metrolics</span> team. It sports a responsive layout with a mobile layout.theme.</h1>
+    <h2>Hey folks! We are the <span class="metrolics__highlight">Metrolics</span> team. It sports a responsive layout with a mobile layout.theme.</h2>
   </section>
 <!-- SECTION 02 - INTRO -->
+
 <!-- SECTION 03 - WHAT WE DO -->
   <section class="section03">
-    <header>
-      <h2>Things That We Do</h2>
+    <header> <!-- SHOULD I HAVE A HEADER OR OTHER TAG HERE? -->
+      <h3>Things That We Do</h3>
       <p>Ask us what we can do for you</p>
     </header>
+
     <div class="services">
-      <div class="service-1">
-        <img scr="" class="service-icon" alt="">
-        <h3>Web Solutions</h3>
+      <div class="service__box">
+        <img class="service__icon" scr="" alt="">
+        <h4>Web Solutions</h4>
         <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
       </div>
-      <div class="service-2">
-        <img scr="" class="service-icon" alt="">
-        <h3>Web Solutions</h3>
+
+      <div class="service__box">
+        <img class="service__icon" scr="" alt="">
+        <h4>Web Solutions</h4>
         <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
       </div>
-      <div class="service-3">
-        <img scr="" class="service-icon" alt="">
-        <h3>Web Solutions</h3>
+
+      <div class="service__box">
+        <img class="service__icon" scr="" alt="">
+        <h4>Web Solutions</h4>
         <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
       </div>
-      <div class="service-4">
-        <img scr="" class="service-icon" alt="">
-        <h3>Web Solutions</h3>
+
+      <div class="service__box">
+        <img class="service__icon" scr=""alt="">
+        <h4>Web Solutions</h4>
         <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
       </div>
     </div>
   </section>
 <!-- SECTION 03 - WHAT WE DO -->
 
+</main>
+<!-- ADD A FOOTER FOR THE INFO IN NAVY BLUE -->
 </body>
 
 </html>

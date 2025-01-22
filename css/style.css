@@ -1,1 +1,34 @@
-/* SELECTORS LIST NAV BAR.navbar.logo.logo-icon.menu.nav-item-1.nav-item-2.nav-item-3.nav-item-4.nav-item-5.nav-icon#menu-optionsSECTION 01 - BANNER.section01.banner.banner-image.banner-box.banner-box-text.banner-box.color-1.banner-box.color-2.banner-box.color-3SECTION 02 - INTRO.section02h1#metrolics-highlightSECTION 03 - WHAT WE DOph2h3.services.service-1.service-2.service-3.service-4.service-icon*/
+/* SELECTORS LIST 
+
+HEADER
+h1
+.logo__icon
+.navbar
+.nav__item1
+.navbar__icon
+
+SECTION 01 - BANNER
+.section01
+.banner
+.banner__image
+.banner__box
+.banner__box--text
+.banner__box--color1
+.banner__box--color2
+.banner__box--color3
+
+
+SECTION 02 - INTRO
+h2
+.section02
+.metrolics-highlight
+
+SECTION 03 - WHAT WE DO
+p
+h3
+h4
+.secion03
+.services
+.service__box
+.service__icon
+*/
